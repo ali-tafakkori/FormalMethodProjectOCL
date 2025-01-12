@@ -1,0 +1,159 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="Page-1" id="JOrDvVrOhpy4tZSINRCA">
+    <mxGraphModel dx="1434" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dysAEP4rozQeLWhS0U_O-5" value="&amp;nbsp;(Formal Method)&amp;nbsp;روش‌های رسمی در مهندسی نرم افزار&lt;br&gt;علی تفکری خسروشاهی" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=25;fontColor=#FFFF00;spacing=3;html=1;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;fillColor=none;strokeColor=#FFFF00;" parent="1" vertex="1">
+          <mxGeometry x="570" y="40" width="540" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-12" value="Session" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="390" width="180" height="190" as="geometry">
+            <mxRectangle x="230" y="60" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-13" value="+&amp;nbsp;sessionId: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-12" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-16" value="+ startTime: DateTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-12" vertex="1">
+          <mxGeometry y="52" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-17" value="+ endTime: DateTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-12" vertex="1">
+          <mxGeometry y="78" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="dysAEP4rozQeLWhS0U_O-12" vertex="1">
+          <mxGeometry y="104" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-15" value="+ startSession(user: User): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-12" vertex="1">
+          <mxGeometry y="112" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-49" value="+ endSession(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-12" vertex="1">
+          <mxGeometry y="138" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-48" value="+&amp;nbsp;isActive(): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-12" vertex="1">
+          <mxGeometry y="164" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-18" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="190" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-19" value="+ username: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-18" vertex="1">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-22" value="+ password: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-18" vertex="1">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-23" value="+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;isLoggedIn: Boolean&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-18" vertex="1">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="dysAEP4rozQeLWhS0U_O-18" vertex="1">
+          <mxGeometry y="104" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-21" value="+ login(password: String): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-18" vertex="1">
+          <mxGeometry y="112" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-24" value="+ logout(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-18" vertex="1">
+          <mxGeometry y="138" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-25" value="+ updatePassword(newPassword: String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-18" vertex="1">
+          <mxGeometry y="164" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-26" value="OTP" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="600" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-27" value="+ code: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-26" vertex="1">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-30" value="+ isUsed: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-26" vertex="1">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-31" value="+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;generatedAt: DateTime&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-26" vertex="1">
+          <mxGeometry y="78" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="dysAEP4rozQeLWhS0U_O-26" vertex="1">
+          <mxGeometry y="104" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-29" value="+ generateOTP(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-26" vertex="1">
+          <mxGeometry y="112" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-32" value="+ validateOTP(inputCode: String): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-26" vertex="1">
+          <mxGeometry y="138" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-33" value="+ markAsUsed(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-26" vertex="1">
+          <mxGeometry y="164" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-34" value="Admin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="830" width="350" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-35" value="+ username: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-34" vertex="1">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-44" value="+ password: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-34" vertex="1">
+          <mxGeometry y="52" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-43" value="+ isSuperAdmin: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-34" vertex="1">
+          <mxGeometry y="78" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="dysAEP4rozQeLWhS0U_O-34" vertex="1">
+          <mxGeometry y="104" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-37" value="+&amp;nbsp;createUser(username: String, password: String): User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-34" vertex="1">
+          <mxGeometry y="112" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-45" value="+ deleteUser(user: User): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-34" vertex="1">
+          <mxGeometry y="138" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-46" value="+ resetUserPassword(user: User, newPassword: String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dysAEP4rozQeLWhS0U_O-34" vertex="1">
+          <mxGeometry y="164" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="dysAEP4rozQeLWhS0U_O-25" target="dysAEP4rozQeLWhS0U_O-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="dysAEP4rozQeLWhS0U_O-24" target="dysAEP4rozQeLWhS0U_O-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dysAEP4rozQeLWhS0U_O-43" target="dysAEP4rozQeLWhS0U_O-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="921" />
+              <mxPoint x="30" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-53" value="&lt;div&gt;context &lt;b&gt;User&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-- inv: Username and password cannot be empty.&lt;/div&gt;&lt;div&gt;inv: not username.isEmpty() and not password.isEmpty()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- inv: Password must have at least 8 characters.&lt;/div&gt;&lt;div&gt;inv: password.size() &amp;gt;= 8&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- inv: Username must be unique.&lt;/div&gt;&lt;div&gt;inv: User.allInstances()-&amp;gt;forAll(u1, u2 | u1 &amp;lt;&amp;gt; u2 implies u1.username &amp;lt;&amp;gt; u2.username)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- pre: Password cannot be empty.&amp;nbsp;&lt;/div&gt;&lt;div&gt;-- post: Logged in if password matches.&lt;/div&gt;&lt;div&gt;context User::login(password: String): Boolean&lt;/div&gt;&lt;div&gt;pre: not password.isEmpty()&lt;/div&gt;&lt;div&gt;post: isLoggedIn = (self.password = password)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- pre: Must be logged in.&amp;nbsp;&lt;/div&gt;&lt;div&gt;-- post: Logged out.&lt;/div&gt;&lt;div&gt;context User::logout(): void&lt;/div&gt;&lt;div&gt;pre: isLoggedIn = true&lt;/div&gt;&lt;div&gt;post: isLoggedIn = false&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingTop=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="637" y="164" width="490" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.177;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" parent="1" source="dysAEP4rozQeLWhS0U_O-19" target="dysAEP4rozQeLWhS0U_O-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-56" value="&lt;div&gt;&lt;div&gt;context &lt;b&gt;OTP&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-- inv: Code must have at least 6 digits.&lt;/div&gt;&lt;div&gt;inv: code.size() &amp;gt;= 6&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- inv: Code must be numeric.&lt;/div&gt;&lt;div&gt;inv: code-&amp;gt;forAll(c | c &amp;gt;= &#39;0&#39; and c &amp;lt;= &#39;9&#39;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- inv: OTP is valid for 5 minutes.&lt;/div&gt;&lt;div&gt;inv: generatedAt.plusMinutes(5) &amp;gt; DateTime::now()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- pre: Input must not be empty.&amp;nbsp;&lt;/div&gt;&lt;div&gt;-- post: True if code matches and is valid.&lt;/div&gt;&lt;div&gt;context OTP::validateOTP(inputCode: String): Boolean&lt;/div&gt;&lt;div&gt;pre: not inputCode.isEmpty()&lt;/div&gt;&lt;div&gt;post: result = (code = inputCode and not isUsed and generatedAt.plusMinutes(5) &amp;gt; DateTime::now())&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- pre: OTP must be expired or used.&amp;nbsp;&lt;/div&gt;&lt;div&gt;-- post: New OTP is generated.&lt;/div&gt;&lt;div&gt;context OTP::generateOTP(): String&lt;/div&gt;&lt;div&gt;pre: isUsed or generatedAt.plusMinutes(5) &amp;lt;= DateTime::now()&lt;/div&gt;&lt;div&gt;post: not isUsed and result.size() &amp;gt;= 6&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingTop=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="670" width="550" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-58" value="&lt;div&gt;&lt;div&gt;context &lt;b&gt;Admin&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- inv: Must have at least one user.&lt;/div&gt;&lt;div&gt;inv: not users-&amp;gt;isEmpty()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- pre: Username and password must not be empty.&amp;nbsp;&lt;/div&gt;&lt;div&gt;-- post: User is created and added.&lt;/div&gt;&lt;div&gt;context Admin::createUser(username: String, password: String): User&lt;/div&gt;&lt;div&gt;pre: not username.isEmpty() and not password.isEmpty()&lt;/div&gt;&lt;div&gt;post: users-&amp;gt;includes(result)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- pre: User must exist in the list.&amp;nbsp;&lt;/div&gt;&lt;div&gt;-- post: User is removed.&lt;/div&gt;&lt;div&gt;context Admin::deleteUser(user: User): void&lt;/div&gt;&lt;div&gt;pre: users-&amp;gt;includes(user)&lt;/div&gt;&lt;div&gt;post: not users-&amp;gt;includes(user)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingTop=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="570" y="785" width="380" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" parent="1" source="dysAEP4rozQeLWhS0U_O-43" target="dysAEP4rozQeLWhS0U_O-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-61" value="&lt;div&gt;&lt;div&gt;context &lt;b&gt;Session&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-- inv: Duration must not be negative.&lt;/div&gt;&lt;div&gt;inv: endTime &amp;gt;= startTime&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- inv: Must not exceed 24 hours.&lt;/div&gt;&lt;div&gt;inv: endTime &amp;lt;= startTime.plusHours(24)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- pre: No active session for user.&amp;nbsp;&lt;/div&gt;&lt;div&gt;-- post: Session started.&lt;/div&gt;&lt;div&gt;context Session::startSession(user: User): void&lt;/div&gt;&lt;div&gt;pre: Session.allInstances()-&amp;gt;forAll(s | s.user &amp;lt;&amp;gt; user or not s.isActive())&lt;/div&gt;&lt;div&gt;post: user = user and startTime = DateTime::now()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- pre: Session must be active.&amp;nbsp;&lt;/div&gt;&lt;div&gt;-- post: Session ended.&lt;/div&gt;&lt;div&gt;context Session::endSession(): void&lt;/div&gt;&lt;div&gt;pre: isActive()&lt;/div&gt;&lt;div&gt;post: not isActive() and endTime = DateTime::now()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingTop=0;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="1195" y="190" width="490" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.879;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" parent="1" source="dysAEP4rozQeLWhS0U_O-48" target="dysAEP4rozQeLWhS0U_O-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="567" />
+              <mxPoint x="1160" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dysAEP4rozQeLWhS0U_O-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" parent="1" source="dysAEP4rozQeLWhS0U_O-31" target="dysAEP4rozQeLWhS0U_O-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="691" />
+              <mxPoint x="1040" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
